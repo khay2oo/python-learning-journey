@@ -11,7 +11,7 @@ def print_card(name, age, field, loves_ai):
         f"Name: {name}",
         f"Age: {age}",
         f"Field: {field}",
-        f"Loves AI: {'✔' if loves_ai else '✘'}"
+        f"Loves learning: {'✔' if loves_ai else '✘'}"
     ]
     width = max(len(line) for line in lines) + 2
 
